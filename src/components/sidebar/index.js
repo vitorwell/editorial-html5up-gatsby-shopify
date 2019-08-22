@@ -4,37 +4,37 @@ import Menu from "../menu"
 import Contact from "../contact"
 import Latest from "../latest"
 import Footer from "../footer"
-/*import Search from "../searchbox"
-const searchIndices = [
-  { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
-  { name: `Posts`, title: `Blog Posts`, hitComp: `PostHit` },
-]*/
+//import Input from "../search/input"
 
-const Sidebar = (props) => (
-  <div id="sidebar">
-    <div className="inner">
-      {/* Search */}
-      <section id="search" className="Search Alt">
-        {/*<Search collapse indices={searchIndices} />*/}
-        <form method="post" action="">
-          <input type="text" name="query" id="query" placeholder="Search" />
-        </form>
-      </section>
+const Sidebar = (props) => {
 
-      {/* Menu */}
-      <Menu siteMenu={props.siteMenu} />
+    return (
+        <div id="sidebar">
+            <div className="inner">
+                {/* Search */}
+                <section id="search" className="Search Alt">
+                    {/*<Search collapse indices={searchIndices} />*/}
+                    <form method="post" action="">
+                        <input type="text" name="query" id="query" placeholder="Search"/>
+                    </form>
+                </section>
 
-      {/* Section */}
-      <Latest />
+                {/* Menu */}
+                <Menu siteMenu={props.siteMenu}/>
 
-      {/* Section */}
-      <Contact />
+                {/* Section */}
+                <Latest/>
 
-      {/* Footer */}
-      <Footer />
-    </div>
-  </div>
+                {/* Section */}
+                <Contact/>
 
-)
+                {/* Footer */}
+                <Footer/>
+            </div>
+        </div>
+
+    )
+
+}
 
 export default Sidebar

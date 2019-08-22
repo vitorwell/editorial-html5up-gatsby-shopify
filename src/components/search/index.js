@@ -8,7 +8,7 @@ import {
 import algoliasearch from "algoliasearch/lite"
 
 import { Root, HitsWrapper, PoweredBy } from "./styles"
-import Input from "./input"
+
 import * as hitComps from "./hitComps"
 
 const Results = connectStateResults(
@@ -35,7 +35,7 @@ const useClickOutside = (ref, handler, events) => {
   })
 }
 
-export default function Search({ indices, collapse, hitsAsGrid }) {
+export default function Search({ indices, collapse, hitsAsGrid, children }) {
   const ref = createRef()
   const [query, setQuery] = useState(``)
   const [focus, setFocus] = useState(false)
@@ -43,7 +43,8 @@ export default function Search({ indices, collapse, hitsAsGrid }) {
     process.env.ALGOLIA_APP_ID,
     process.env.ALGOLIA_SEARCH_KEY
   )
-  useClickOutside(ref, () => setFocus(false))
+  //useClickOutside(ref, () => setFocus(false))
+
   return (
     <InstantSearch
       searchClient={searchClient}
@@ -51,21 +52,10 @@ export default function Search({ indices, collapse, hitsAsGrid }) {
       onSearchStateChange={({ query }) => setQuery(query)}
       root={{ Root, props: { ref } }}
     >
-      <Input onFocus={() => setFocus(true)} {...{ collapse, focus }} />
-      <HitsWrapper show={query.length > 0 && focus} asGrid={hitsAsGrid}>
-        {indices.map(({ name, title, hitComp }) => (
-          <Index key={name} indexName={name}>
-            <header>
-              <h3>{title}</h3>
-              <Stats />
-            </header>
-            <Results>
-              <Hits hitComponent={hitComps[hitComp](() => setFocus(false))} />
-            </Results>
-          </Index>
-        ))}
-        <PoweredBy />
-      </HitsWrapper>
+
+        {children}
+
+
     </InstantSearch>
   )
 }

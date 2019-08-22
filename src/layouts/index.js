@@ -16,6 +16,12 @@ import "scss/main.scss"
 import Header from "../components/header/index"
 import Sidebar from "../components/sidebar/index"
 
+/*import Search from "../components/search"
+const searchIndices = [
+  { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
+  { name: `Posts`, title: `Blog Posts`, hitComp: `PostHit` },
+]*/
+
 class Layout extends React.Component {
   /*state = {
     store: {

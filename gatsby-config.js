@@ -1,7 +1,7 @@
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`
 })
-//const queries = require("./src/components/searchbox/queries")
+//const queries = require("./src/components/search/queries")
 const siteMetadata = require("./static/admin/site_metadata")
 const shopOptions = require('./gatsby-shopifystore')
 

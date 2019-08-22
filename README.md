@@ -24,6 +24,12 @@ SHOP_NAME=`YOUR-STORENAME`
 SHOPIFY_ACCESS_TOKEN=`YOUR-STOREFRONT-TOKEN`
 ```
 
+To be able to use cms fonts selector, you'll need to [generate a Google Fonts API key](https://developers.google.com/fonts/docs/developer_api#APIKey).
+Add your Google Fonts API key as a enviroment variable
+```
+GOOGLE_FONTS_API_KEY=`YOUR-KEY`
+```
+
 Netlify environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys. 
 
 You can create your own environment variables in your site dashboard under `Settings > Build & deploy > Environment > Environment variables`.

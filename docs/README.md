@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <h1 align="center">
-  🏪 GatsbyJS + Shopify + Netlify CMS Starter + Editorial theme by HTML5UP
+   🏪 GatsbyJS + Shopify + Netlify CMS Starter + Editorial theme by HTML5UP
 </h1>
 <p align="center">
   <a href="https://github.com/sekmet/editorial-html5up-gatsby-shopify">
@@ -22,6 +22,12 @@ Add your Shopify Storefront API shop name and token as a enviroment variables
 ```
 SHOP_NAME=`YOUR-STORENAME`
 SHOPIFY_ACCESS_TOKEN=`YOUR-STOREFRONT-TOKEN`
+```
+
+To be able to use cms fonts selector, you'll need to [generate a Google Fonts API key](https://developers.google.com/fonts/docs/developer_api#APIKey).
+Add your Google Fonts API key as a enviroment variable
+```
+GOOGLE_FONTS_API_KEY=`YOUR-KEY`
 ```
 
 Netlify environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys. 
