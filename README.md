@@ -19,8 +19,10 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 Add your Shopify Storefront API shop name and token as a enviroment variables
 
+```
 SHOP_NAME=`YOUR-STORENAME`
 SHOPIFY_ACCESS_TOKEN=`YOUR-STOREFRONT-TOKEN`
+```
 
 Netlify environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys. 
 
