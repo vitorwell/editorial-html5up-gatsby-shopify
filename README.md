@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <h1 align="center">
-   🏪 Editorial by HTML5 UP + Gatsby + Shopify + Netlify CMS Starter
+   🏪 Editorial by HTML5 UP + Gatsby + Shopify + Netlify Starter
 </h1>
 <p align="center">
   <a href="https://github.com/sekmet/editorial-html5up-gatsby-shopify">
@@ -15,6 +15,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 # 🚀 Quick start
 
+##### Demo: [https://editorial-html5up-gatsby-shopify.netlify.com/](https://editorial-html5up-gatsby-shopify.netlify.com/)
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sekmet/editorial-html5up-gatsby-shopify)
 
