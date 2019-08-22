@@ -1,10 +1,9 @@
 ---
 templateKey: contact
-title: Get in touch
+title: Entre em contato!
 tagline: >-
-  Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac
-  varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante
-  interdum. Sed nulla amet lorem feugiat tempus aliquam.
+  Surgiu alguma dúvida? Estamos disposto a ajuda-lo. Entre em contato pelo
+  whatsapp ou por email.
 phone: (16) 99756-3827
 address: São Carlos - SP
 email:
