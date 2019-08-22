@@ -2,7 +2,7 @@
   "name": "editorial-html5up-gatsby-shopify",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby + Shopify and a stunning theme",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Carlos Guimarães <sekmet@open4g.com>",
   "dependencies": {
     "algoliasearch": "^3.33.0",
