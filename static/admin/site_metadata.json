@@ -1,7 +1,10 @@
 {
-  "title": "GatsbyJS + Netlify Starter",
-  "by": "By Open4G Solutions",
+  "title": "Rapé Sagrado",
   "description": "This barebones starter ships with the main Gatsby configuration files you might need.",
+  "siteUrl": "https://editorial-html5up-gatsby.netlify.com/",
   "author": "@2600hz",
-  "siteUrl": "https://editorial-html5up-gatsby.netlify.com/"
+  "blog": {
+    "front_limit": 6,
+    "author": "Rapé Sagrado"
+  }
 }
