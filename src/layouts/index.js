@@ -145,7 +145,6 @@ class Layout extends React.Component {
           site {
             siteMetadata {
               title
-              by
             }
           }
           allMarkdownRemark(filter: {frontmatter: {templateKey: {eq: "menu"}}}) {

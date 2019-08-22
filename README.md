@@ -20,8 +20,8 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 Add your Shopify Storefront API shop name and token as a enviroment variables
 
 ```
-SHOP_NAME=`YOUR-STORENAME`
-SHOPIFY_ACCESS_TOKEN=`YOUR-STOREFRONT-TOKEN`
+GATSBY_SHOP_NAME=`YOUR-STORENAME`
+GATSBY_SHOPIFY_ACCESS_TOKEN=`YOUR-STOREFRONT-TOKEN`
 ```
 
 To be able to use cms fonts selector, you'll need to [generate a Google Fonts API key](https://developers.google.com/fonts/docs/developer_api#APIKey).
