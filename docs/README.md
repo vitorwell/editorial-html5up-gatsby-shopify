@@ -16,6 +16,18 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 # 🚀 Quick start
 
 ##### Demo: [https://editorial-html5up-gatsby-shopify.netlify.com/](https://editorial-html5up-gatsby-shopify.netlify.com/)
+
+Add your Shopify Storefront API shop name and token as a enviroment variables
+
+SHOP_NAME=`YOUR-STORENAME`
+SHOPIFY_ACCESS_TOKEN=`YOUR-STOREFRONT-TOKEN`
+
+Netlify environment variables are accessible during your build. This allows you to change behaviors based on deploy parameters or to include information you don’t want to save in your repository, such as API keys. 
+
+You can create your own environment variables in your site dashboard under `Settings > Build & deploy > Environment > Environment variables`.
+
+`Variable values set under site settings will override the team-level settings.`
+
 <!-- Markdown snippet -->
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sekmet/editorial-html5up-gatsby-shopify)
 
